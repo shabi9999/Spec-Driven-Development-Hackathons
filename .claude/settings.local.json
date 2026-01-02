@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json 2>&1\")",
+      "Bash(python main.py:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}
